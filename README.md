@@ -1,4 +1,4 @@
-# Abyss Branch
+# アビス・ブランチ概要
 
 Abyss Branch は、Godot 4.6 で開発するカードベースのローグライクゲームプロジェクトです。対応プラットフォームは Android と iOS です。
 
@@ -15,7 +15,9 @@ Abyss Branch は、Godot 4.6 で開発するカードベースのローグライ
 
 ```text
 abyss-branch/
+├─ CHANGELOG.md
 ├─ README.md
+├─ AGENTS.md
 ├─ godot/
 ├─ data/
 ├─ sim/
@@ -39,3 +41,16 @@ abyss-branch/
 
 - `docs/`  
   仕様・方針・運用ルールのドキュメントを集約するディレクトリ。
+
+- `CHANGELOG.md`  
+  リリース単位の変更履歴。プレイ体験や仕様に影響する変更を記録する。
+
+- `docs/policy/commit-message.md`  
+  コミットメッセージの型と書式のルール。
+
+- `docs/workflow/development-flow.md`  
+  仕様更新から実装完了までの標準開発フロー。
+
+- `AGENTS.md`  
+  Codex エージェントの運用ルール。MCP サーバ選択方針（フォルダ別優先・`repo` 利用条件）を定義する。
+  参照: [AGENTS.md](AGENTS.md)

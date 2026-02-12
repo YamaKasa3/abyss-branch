@@ -1,0 +1,9 @@
+# === Godot ===
+.godot/
+export/
+*.pck
+*.log
+godot/**/.editorconfig
+godot/**/icon.*
+# === Codex ===
+.codex
